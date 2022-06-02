@@ -14,7 +14,7 @@ GPU | Intel HD Graphics 4600
 Audiocodec | ALC892
 Wireless Adapter | Killer E2200 Gigabit Ethernet Controller
 
-# Installed Drivers, Kexts & ACPI
+# Installed Drivers & Kexts
 
 Drivers & Kexts | Short description
 --- | ---
