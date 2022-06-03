@@ -19,7 +19,7 @@ Ethernet | Killer E2200 Gigabit Ethernet Controller
 # Successfully checked versions MacOS with subsequent work
 
 - [x] MacOS Catalina (10.15.7 with subsequent updates);
-- [ ] MacOS Big Sur (11 with subsequent updates);
+- [ ] MacOS Big Sur;
 - [x] MacOS Monterey (12.0, not checked subsequent updates).
 
 # Installed Drivers 
