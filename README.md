@@ -6,21 +6,38 @@ I would like to express my gratitude to [Dortania's OpenCore Install Guide](http
 
 **OpenCore Version:** 0.8.0
 
+# Completed to working
+
+- QE/CI of Intel HD 4600
+- Audio
+- Power Management
+- Ethernet
+- All USB Ports
+- HDMI Video
+- Touchpad
+- Battery Indicator
+- Brightness
+
+# Not working
+
+- Wifi and Bluetooth (i'm don't need their work)
+- Airdrop
+- Brightness keys
+
 # Computer specifications
 
 Component | Model
 --- | ---
 Laptop | MSI GS70 2PE Stealth Pro (MS-1772)
 CPU | Intel Core i7-4710HQ
-GPU | Intel HD Graphics 4600
+iGPU | Intel HD Graphics 4600
 Audio Chipset | ALC-892
 Ethernet | Killer E2200 Gigabit Ethernet Controller
 
-# Successfully checked versions MacOS with subsequent work
+# Successfully checked versions MacOS
 
-- [x] MacOS Catalina (10.15.7 with subsequent updates);
-- [ ] MacOS Big Sur;
-- [x] MacOS Monterey (12.0, not checked subsequent updates).
+- [x] MacOS Big Sur (1.1.6.6, not checked other versions)
+- [x] MacOS Monterey (Successful OTA update without breaking any's kexts & drivers from Big Sur).
 
 # Installed Drivers 
 
