@@ -1,3 +1,5 @@
+![MacOS](/Screenshots/screenshot1.png)
+
 # [OpenCore](https://github.com/acidanthera/OpenCorePkg) EFI Build
 
 A manually assembled build for installing Hackintosh on my laptop. Saved for future experiments.
@@ -12,17 +14,18 @@ I would like to express my gratitude to [Dortania's OpenCore Install Guide](http
 - Audio
 - Power Management
 - Ethernet
+- Wi-Fi
+- Bluetooth
 - All USB Ports
 - HDMI Video
 - Touchpad
 - Battery Indicator
 - Brightness
-
-# Not working
-
-- Wifi and Bluetooth (i'm don't need their work)
-- Airdrop
 - Brightness keys
+- AirDrop
+- OTA Updates
+- iServices
+
 
 # Computer specifications
 
@@ -31,8 +34,10 @@ Component | Model
 Laptop | MSI GS70 2PE Stealth Pro (MS-1772)
 CPU | Intel Core i7-4710HQ
 iGPU | Intel HD Graphics 4600
-Audio Chipset | ALC-892
+Audio Chipset | Realtek ALC892
 Ethernet | Killer E2200 Gigabit Ethernet Controller
+Wi-Fi Chipset | Intel Wireless-N 7260
+Bluetooth Chipset | BCM_4350C2
 
 # Successfully checked versions MacOS
 
@@ -57,3 +62,5 @@ Kexts | Short description
 [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases) | Used for work ethernet card
 [VoodooPS2](https://github.com/acidanthera/VoodooPS2/releases) | Works with various PS2 keyboards, mice, and trackpads
 [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) | Used for injecting Intel USB controllers on systems without defined USB ports in ACPI
+[BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases) | Used for supporting Broadcom Bluetooth chipset (non-Apple/non-Fenvi)
+[AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | Adds support for a large variety of Intel wireless cards and works natively in recovery thanks to IO80211Family integration
